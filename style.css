@@ -5,7 +5,8 @@
 h1, .div-amount, .btn {
     text-align: center;
     display: inline-block;
-    margin-left: 64px;
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 input {
@@ -45,7 +46,5 @@ input {
 
 .block {
     margin: 0;
-    width: 128px;
-    height: 128px;
     display: inline-block;
 }
