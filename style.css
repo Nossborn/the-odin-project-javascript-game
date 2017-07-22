@@ -1,0 +1,51 @@
+.top {
+    text-align: center;
+}
+
+h1, .div-amount, .btn {
+    text-align: center;
+    display: inline-block;
+    margin-left: 64px;
+}
+
+input {
+    width: 26px;
+    border: none;
+    text-align: center;
+}
+
+.div-amount {
+    background-color: #E0E0E0;
+    padding: 3px 5px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10%;
+    color: #666;
+}
+
+.btn {
+    background-color: #E0E0E0;
+    border: 1px solid #E0E0E0;
+    border-radius: 10%;
+    padding: 3px 5px;
+    text-decoration: none;
+    color: #666;
+}
+
+.btn, .div-amount {
+    box-shadow: 1px 1px 3px #888888;
+}
+
+.container {
+    width: 512px;
+    height: 512px;
+    margin: 0 auto;
+    background-color: black;
+    font-size: 0px;
+}
+
+.block {
+    margin: 0;
+    width: 128px;
+    height: 128px;
+    display: inline-block;
+}
