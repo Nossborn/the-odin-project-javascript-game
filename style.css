@@ -1,8 +1,18 @@
+.background {
+    width: 715px;
+    height: 715px;
+    margin: 10px auto;
+    background-color: red;
+    border-radius: 15%;
+}
+
 .top {
+    position: relative;
+    top: 25px;
     text-align: center;
 }
 
-h1, .div-amount, .btn {
+h1, .div-amount, .clr-btn {
     text-align: center;
     display: inline-block;
     margin-left: 32px;
@@ -23,7 +33,7 @@ input {
     color: #666;
 }
 
-.btn {
+.clr-btn {
     background-color: #E0E0E0;
     border: 1px solid #E0E0E0;
     border-radius: 10%;
@@ -32,7 +42,7 @@ input {
     color: #666;
 }
 
-.btn, .div-amount {
+.clr-btn, .div-amount {
     box-shadow: 1px 1px 3px #888888;
 }
 
@@ -42,6 +52,7 @@ input {
     margin: 0 auto;
     background-color: black;
     font-size: 0px;
+    margin-top: 50px;
 }
 
 .block {
